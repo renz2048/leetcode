@@ -1,3 +1,4 @@
+<?php
 class Solution {
 
     /**
@@ -16,3 +17,4 @@ class Solution {
         throw new ErrorException("No two sum solution");
     }
 }
+?>
