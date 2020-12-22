@@ -1,6 +1,7 @@
 cmake_minimum_required(VERSION 3.17)
-project(5_longestPalindrome C)
+project(leetcode C)
 
 set(CMAKE_C_STANDARD 99)
 
-add_executable(5_longestPalindrome 5-longestPalindrome/5-longestPalindrome.c)
+add_subdirectory(5-longestPalindrome)
+add_subdirectory(3-lengthOfLongestSubstring)

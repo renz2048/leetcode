@@ -76,6 +76,9 @@
 				</MakeCommands>
 			</Target>
 		</Build>
+		<Unit filename="/home/renzheng/CLionProjects/leetcode/3-lengthOfLongestSubstring.c">
+			<Option target="5_longestPalindrome"/>
+		</Unit>
 		<Unit filename="/home/renzheng/CLionProjects/leetcode/5-longestPalindrome/5-longestPalindrome.c">
 			<Option target="5_longestPalindrome"/>
 		</Unit>

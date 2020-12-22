@@ -100,14 +100,14 @@ edit_cache/fast: edit_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/renzheng/CLionProjects/leetcode/cmake-build-debug/CMakeFiles /home/renzheng/CLionProjects/leetcode/cmake-build-debug/CMakeFiles/progress.marks
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 all
+	cd /home/renzheng/CLionProjects/leetcode/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_progress_start /home/renzheng/CLionProjects/leetcode/cmake-build-debug/CMakeFiles /home/renzheng/CLionProjects/leetcode/cmake-build-debug/3-lengthOfLongestSubstring/CMakeFiles/progress.marks
+	cd /home/renzheng/CLionProjects/leetcode/cmake-build-debug && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 3-lengthOfLongestSubstring/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/renzheng/CLionProjects/leetcode/cmake-build-debug/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 clean
+	cd /home/renzheng/CLionProjects/leetcode/cmake-build-debug && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 3-lengthOfLongestSubstring/clean
 .PHONY : clean
 
 # The main clean target
@@ -117,44 +117,60 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 preinstall
+	cd /home/renzheng/CLionProjects/leetcode/cmake-build-debug && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 3-lengthOfLongestSubstring/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 preinstall
+	cd /home/renzheng/CLionProjects/leetcode/cmake-build-debug && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 3-lengthOfLongestSubstring/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	$(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /home/renzheng/CLionProjects/leetcode/cmake-build-debug && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
-#=============================================================================
-# Target rules for targets named 5_longestPalindrome
+# Convenience name for target.
+3-lengthOfLongestSubstring/CMakeFiles/3_lengthOfLongestSubstring.dir/rule:
+	cd /home/renzheng/CLionProjects/leetcode/cmake-build-debug && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 3-lengthOfLongestSubstring/CMakeFiles/3_lengthOfLongestSubstring.dir/rule
+.PHONY : 3-lengthOfLongestSubstring/CMakeFiles/3_lengthOfLongestSubstring.dir/rule
 
-# Build rule for target.
-5_longestPalindrome: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 5_longestPalindrome
-.PHONY : 5_longestPalindrome
+# Convenience name for target.
+3_lengthOfLongestSubstring: 3-lengthOfLongestSubstring/CMakeFiles/3_lengthOfLongestSubstring.dir/rule
 
-# fast build rule for target.
-5_longestPalindrome/fast:
-	$(MAKE) $(MAKESILENT) -f 5-longestPalindrome/CMakeFiles/5_longestPalindrome.dir/build.make 5-longestPalindrome/CMakeFiles/5_longestPalindrome.dir/build
-.PHONY : 5_longestPalindrome/fast
-
-#=============================================================================
-# Target rules for targets named 3_lengthOfLongestSubstring
-
-# Build rule for target.
-3_lengthOfLongestSubstring: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 3_lengthOfLongestSubstring
 .PHONY : 3_lengthOfLongestSubstring
 
 # fast build rule for target.
 3_lengthOfLongestSubstring/fast:
-	$(MAKE) $(MAKESILENT) -f 3-lengthOfLongestSubstring/CMakeFiles/3_lengthOfLongestSubstring.dir/build.make 3-lengthOfLongestSubstring/CMakeFiles/3_lengthOfLongestSubstring.dir/build
+	cd /home/renzheng/CLionProjects/leetcode/cmake-build-debug && $(MAKE) $(MAKESILENT) -f 3-lengthOfLongestSubstring/CMakeFiles/3_lengthOfLongestSubstring.dir/build.make 3-lengthOfLongestSubstring/CMakeFiles/3_lengthOfLongestSubstring.dir/build
 .PHONY : 3_lengthOfLongestSubstring/fast
+
+3-lengthOfLongestSubstring.o: 3-lengthOfLongestSubstring.c.o
+
+.PHONY : 3-lengthOfLongestSubstring.o
+
+# target to build an object file
+3-lengthOfLongestSubstring.c.o:
+	cd /home/renzheng/CLionProjects/leetcode/cmake-build-debug && $(MAKE) $(MAKESILENT) -f 3-lengthOfLongestSubstring/CMakeFiles/3_lengthOfLongestSubstring.dir/build.make 3-lengthOfLongestSubstring/CMakeFiles/3_lengthOfLongestSubstring.dir/3-lengthOfLongestSubstring.c.o
+.PHONY : 3-lengthOfLongestSubstring.c.o
+
+3-lengthOfLongestSubstring.i: 3-lengthOfLongestSubstring.c.i
+
+.PHONY : 3-lengthOfLongestSubstring.i
+
+# target to preprocess a source file
+3-lengthOfLongestSubstring.c.i:
+	cd /home/renzheng/CLionProjects/leetcode/cmake-build-debug && $(MAKE) $(MAKESILENT) -f 3-lengthOfLongestSubstring/CMakeFiles/3_lengthOfLongestSubstring.dir/build.make 3-lengthOfLongestSubstring/CMakeFiles/3_lengthOfLongestSubstring.dir/3-lengthOfLongestSubstring.c.i
+.PHONY : 3-lengthOfLongestSubstring.c.i
+
+3-lengthOfLongestSubstring.s: 3-lengthOfLongestSubstring.c.s
+
+.PHONY : 3-lengthOfLongestSubstring.s
+
+# target to generate assembly for a file
+3-lengthOfLongestSubstring.c.s:
+	cd /home/renzheng/CLionProjects/leetcode/cmake-build-debug && $(MAKE) $(MAKESILENT) -f 3-lengthOfLongestSubstring/CMakeFiles/3_lengthOfLongestSubstring.dir/build.make 3-lengthOfLongestSubstring/CMakeFiles/3_lengthOfLongestSubstring.dir/3-lengthOfLongestSubstring.c.s
+.PHONY : 3-lengthOfLongestSubstring.c.s
 
 # Help Target
 help:
@@ -165,7 +181,9 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... 3_lengthOfLongestSubstring"
-	@echo "... 5_longestPalindrome"
+	@echo "... 3-lengthOfLongestSubstring.o"
+	@echo "... 3-lengthOfLongestSubstring.i"
+	@echo "... 3-lengthOfLongestSubstring.s"
 .PHONY : help
 
 
@@ -177,6 +195,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	$(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /home/renzheng/CLionProjects/leetcode/cmake-build-debug && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

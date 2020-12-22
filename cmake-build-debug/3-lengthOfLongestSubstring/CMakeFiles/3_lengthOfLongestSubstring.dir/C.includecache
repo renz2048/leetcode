@@ -1,0 +1,16 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/renzheng/CLionProjects/leetcode/3-lengthOfLongestSubstring/3-lengthOfLongestSubstring.c
+stdio.h
+-
+string.h
+-
+stdlib.h
+-
+

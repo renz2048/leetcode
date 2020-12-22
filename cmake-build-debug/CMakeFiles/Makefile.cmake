@@ -26,6 +26,8 @@ set(CMAKE_MAKEFILE_DEPENDS
   "/home/renzheng/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/203.5981.166/bin/cmake/linux/share/cmake-3.17/Modules/Platform/Linux.cmake"
   "/home/renzheng/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/203.5981.166/bin/cmake/linux/share/cmake-3.17/Modules/Platform/UnixPaths.cmake"
   "/home/renzheng/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/203.5981.166/bin/cmake/linux/share/cmake-3.17/Modules/ProcessorCount.cmake"
+  "../3-lengthOfLongestSubstring/CMakeLists.txt"
+  "../5-longestPalindrome/CMakeLists.txt"
   "../CMakeLists.txt"
   "CMakeFiles/3.17.3/CMakeCCompiler.cmake"
   "CMakeFiles/3.17.3/CMakeSystem.cmake"
@@ -40,9 +42,12 @@ set(CMAKE_MAKEFILE_OUTPUTS
 # Byproducts of CMake generate step:
 set(CMAKE_MAKEFILE_PRODUCTS
   "CMakeFiles/CMakeDirectoryInformation.cmake"
+  "5-longestPalindrome/CMakeFiles/CMakeDirectoryInformation.cmake"
+  "3-lengthOfLongestSubstring/CMakeFiles/CMakeDirectoryInformation.cmake"
   )
 
 # Dependency information for all targets:
 set(CMAKE_DEPEND_INFO_FILES
-  "CMakeFiles/5_longestPalindrome.dir/DependInfo.cmake"
+  "5-longestPalindrome/CMakeFiles/5_longestPalindrome.dir/DependInfo.cmake"
+  "3-lengthOfLongestSubstring/CMakeFiles/3_lengthOfLongestSubstring.dir/DependInfo.cmake"
   )

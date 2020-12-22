@@ -1,0 +1,1 @@
+add_executable(5_longestPalindrome 5-longestPalindrome.c)

@@ -1,3 +1,8 @@
 /home/renzheng/CLionProjects/leetcode/cmake-build-debug/CMakeFiles/rebuild_cache.dir
 /home/renzheng/CLionProjects/leetcode/cmake-build-debug/CMakeFiles/edit_cache.dir
-/home/renzheng/CLionProjects/leetcode/cmake-build-debug/CMakeFiles/5_longestPalindrome.dir
+/home/renzheng/CLionProjects/leetcode/cmake-build-debug/5-longestPalindrome/CMakeFiles/rebuild_cache.dir
+/home/renzheng/CLionProjects/leetcode/cmake-build-debug/5-longestPalindrome/CMakeFiles/edit_cache.dir
+/home/renzheng/CLionProjects/leetcode/cmake-build-debug/5-longestPalindrome/CMakeFiles/5_longestPalindrome.dir
+/home/renzheng/CLionProjects/leetcode/cmake-build-debug/3-lengthOfLongestSubstring/CMakeFiles/rebuild_cache.dir
+/home/renzheng/CLionProjects/leetcode/cmake-build-debug/3-lengthOfLongestSubstring/CMakeFiles/edit_cache.dir
+/home/renzheng/CLionProjects/leetcode/cmake-build-debug/3-lengthOfLongestSubstring/CMakeFiles/3_lengthOfLongestSubstring.dir

@@ -1,0 +1,16 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/renzheng/CLionProjects/leetcode/5-longestPalindrome/5-longestPalindrome.c
+stdio.h
+-
+string.h
+-
+stdlib.h
+-
+
