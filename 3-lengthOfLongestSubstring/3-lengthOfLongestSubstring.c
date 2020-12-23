@@ -8,32 +8,42 @@
 
 int lengthOfLongestSubstring(char *s)
 {
+    //最长子串初始值为0
     int maxlength = 0;
+    int sublength = 0;
     int length = strlen(s);
+    if (length == 0 || length == 1) return length;
     char *begin = NULL, *end = NULL, *pos = NULL;
     char *substr = (char *)malloc(sizeof(char) * (length + 1));
 
     begin = s;
     end = s;
-    maxlength = end - begin + 1;
 
     for (int j = 1; j < length; j++) {
-        substr = strncpy(substr, begin, end - begin + 1);
-        substr[end - begin + 1 ] = '\0';
+        //子串长度
+        sublength = end - begin + 1;
+        maxlength = maxlength < sublength?sublength:maxlength;
+
+        //从s中取字串放在substr中
+        substr = strncpy(substr, begin, sublength);
+        substr[sublength] = '\0';
+
         if ((pos = strchr(substr, s[j])) != NULL) {
-            //存在重复字符
-            begin += pos - substr;
+            //存在重复字符，begin 移动到 s中对应位置的后一位
+            begin += pos - substr + 1;
         }
-        maxlength = maxlength < (end - begin + 1)?(end - begin + 1):maxlength;
         end = s + j;
+        sublength = end - begin + 1;
+        maxlength = maxlength < sublength?sublength:maxlength;
     }
+    free(substr);
     return maxlength;
 }
 
 int main()
 {
     int maxlength = 0;
-    char *s = "pwwkew";
+    char *s = "a";
     maxlength = lengthOfLongestSubstring(s);
     printf("max length is %d\n", maxlength);
     return 0;
