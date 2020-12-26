@@ -54,19 +54,19 @@ cmake_force:
 SHELL = /bin/sh
 
 # The CMake executable.
-CMAKE_COMMAND = /home/renzheng/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/203.5981.166/bin/cmake/linux/bin/cmake
+CMAKE_COMMAND = "/Users/renz2048/Library/Application Support/JetBrains/Toolbox/apps/CLion/ch-0/203.5981.166/CLion.app/Contents/bin/cmake/mac/bin/cmake"
 
 # The command to remove a file.
-RM = /home/renzheng/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/203.5981.166/bin/cmake/linux/bin/cmake -E rm -f
+RM = "/Users/renz2048/Library/Application Support/JetBrains/Toolbox/apps/CLion/ch-0/203.5981.166/CLion.app/Contents/bin/cmake/mac/bin/cmake" -E rm -f
 
 # Escaping for special characters.
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/renzheng/CLionProjects/leetcode
+CMAKE_SOURCE_DIR = /Users/renz2048/CLionProjects/leetcode
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/renzheng/CLionProjects/leetcode/cmake-build-debug
+CMAKE_BINARY_DIR = /Users/renz2048/CLionProjects/leetcode/cmake-build-debug
 
 # Include any dependencies generated for this target.
 include 5-longestPalindrome/CMakeFiles/5_longestPalindrome.dir/depend.make
@@ -79,16 +79,16 @@ include 5-longestPalindrome/CMakeFiles/5_longestPalindrome.dir/flags.make
 
 5-longestPalindrome/CMakeFiles/5_longestPalindrome.dir/5-longestPalindrome.c.o: 5-longestPalindrome/CMakeFiles/5_longestPalindrome.dir/flags.make
 5-longestPalindrome/CMakeFiles/5_longestPalindrome.dir/5-longestPalindrome.c.o: ../5-longestPalindrome/5-longestPalindrome.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/renzheng/CLionProjects/leetcode/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object 5-longestPalindrome/CMakeFiles/5_longestPalindrome.dir/5-longestPalindrome.c.o"
-	cd /home/renzheng/CLionProjects/leetcode/cmake-build-debug/5-longestPalindrome && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/5_longestPalindrome.dir/5-longestPalindrome.c.o   -c /home/renzheng/CLionProjects/leetcode/5-longestPalindrome/5-longestPalindrome.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/renz2048/CLionProjects/leetcode/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object 5-longestPalindrome/CMakeFiles/5_longestPalindrome.dir/5-longestPalindrome.c.o"
+	cd /Users/renz2048/CLionProjects/leetcode/cmake-build-debug/5-longestPalindrome && /Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/5_longestPalindrome.dir/5-longestPalindrome.c.o   -c /Users/renz2048/CLionProjects/leetcode/5-longestPalindrome/5-longestPalindrome.c
 
 5-longestPalindrome/CMakeFiles/5_longestPalindrome.dir/5-longestPalindrome.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/5_longestPalindrome.dir/5-longestPalindrome.c.i"
-	cd /home/renzheng/CLionProjects/leetcode/cmake-build-debug/5-longestPalindrome && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/renzheng/CLionProjects/leetcode/5-longestPalindrome/5-longestPalindrome.c > CMakeFiles/5_longestPalindrome.dir/5-longestPalindrome.c.i
+	cd /Users/renz2048/CLionProjects/leetcode/cmake-build-debug/5-longestPalindrome && /Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/renz2048/CLionProjects/leetcode/5-longestPalindrome/5-longestPalindrome.c > CMakeFiles/5_longestPalindrome.dir/5-longestPalindrome.c.i
 
 5-longestPalindrome/CMakeFiles/5_longestPalindrome.dir/5-longestPalindrome.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/5_longestPalindrome.dir/5-longestPalindrome.c.s"
-	cd /home/renzheng/CLionProjects/leetcode/cmake-build-debug/5-longestPalindrome && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/renzheng/CLionProjects/leetcode/5-longestPalindrome/5-longestPalindrome.c -o CMakeFiles/5_longestPalindrome.dir/5-longestPalindrome.c.s
+	cd /Users/renz2048/CLionProjects/leetcode/cmake-build-debug/5-longestPalindrome && /Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/renz2048/CLionProjects/leetcode/5-longestPalindrome/5-longestPalindrome.c -o CMakeFiles/5_longestPalindrome.dir/5-longestPalindrome.c.s
 
 # Object files for target 5_longestPalindrome
 5_longestPalindrome_OBJECTS = \
@@ -100,8 +100,8 @@ include 5-longestPalindrome/CMakeFiles/5_longestPalindrome.dir/flags.make
 5-longestPalindrome/5_longestPalindrome: 5-longestPalindrome/CMakeFiles/5_longestPalindrome.dir/5-longestPalindrome.c.o
 5-longestPalindrome/5_longestPalindrome: 5-longestPalindrome/CMakeFiles/5_longestPalindrome.dir/build.make
 5-longestPalindrome/5_longestPalindrome: 5-longestPalindrome/CMakeFiles/5_longestPalindrome.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/renzheng/CLionProjects/leetcode/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking C executable 5_longestPalindrome"
-	cd /home/renzheng/CLionProjects/leetcode/cmake-build-debug/5-longestPalindrome && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/5_longestPalindrome.dir/link.txt --verbose=$(VERBOSE)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/renz2048/CLionProjects/leetcode/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking C executable 5_longestPalindrome"
+	cd /Users/renz2048/CLionProjects/leetcode/cmake-build-debug/5-longestPalindrome && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/5_longestPalindrome.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
 5-longestPalindrome/CMakeFiles/5_longestPalindrome.dir/build: 5-longestPalindrome/5_longestPalindrome
@@ -109,10 +109,10 @@ include 5-longestPalindrome/CMakeFiles/5_longestPalindrome.dir/flags.make
 .PHONY : 5-longestPalindrome/CMakeFiles/5_longestPalindrome.dir/build
 
 5-longestPalindrome/CMakeFiles/5_longestPalindrome.dir/clean:
-	cd /home/renzheng/CLionProjects/leetcode/cmake-build-debug/5-longestPalindrome && $(CMAKE_COMMAND) -P CMakeFiles/5_longestPalindrome.dir/cmake_clean.cmake
+	cd /Users/renz2048/CLionProjects/leetcode/cmake-build-debug/5-longestPalindrome && $(CMAKE_COMMAND) -P CMakeFiles/5_longestPalindrome.dir/cmake_clean.cmake
 .PHONY : 5-longestPalindrome/CMakeFiles/5_longestPalindrome.dir/clean
 
 5-longestPalindrome/CMakeFiles/5_longestPalindrome.dir/depend:
-	cd /home/renzheng/CLionProjects/leetcode/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/renzheng/CLionProjects/leetcode /home/renzheng/CLionProjects/leetcode/5-longestPalindrome /home/renzheng/CLionProjects/leetcode/cmake-build-debug /home/renzheng/CLionProjects/leetcode/cmake-build-debug/5-longestPalindrome /home/renzheng/CLionProjects/leetcode/cmake-build-debug/5-longestPalindrome/CMakeFiles/5_longestPalindrome.dir/DependInfo.cmake --color=$(COLOR)
+	cd /Users/renz2048/CLionProjects/leetcode/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/renz2048/CLionProjects/leetcode /Users/renz2048/CLionProjects/leetcode/5-longestPalindrome /Users/renz2048/CLionProjects/leetcode/cmake-build-debug /Users/renz2048/CLionProjects/leetcode/cmake-build-debug/5-longestPalindrome /Users/renz2048/CLionProjects/leetcode/cmake-build-debug/5-longestPalindrome/CMakeFiles/5_longestPalindrome.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : 5-longestPalindrome/CMakeFiles/5_longestPalindrome.dir/depend
 

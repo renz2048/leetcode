@@ -54,19 +54,19 @@ cmake_force:
 SHELL = /bin/sh
 
 # The CMake executable.
-CMAKE_COMMAND = /home/renzheng/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/203.5981.166/bin/cmake/linux/bin/cmake
+CMAKE_COMMAND = "/Users/renz2048/Library/Application Support/JetBrains/Toolbox/apps/CLion/ch-0/203.5981.166/CLion.app/Contents/bin/cmake/mac/bin/cmake"
 
 # The command to remove a file.
-RM = /home/renzheng/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/203.5981.166/bin/cmake/linux/bin/cmake -E rm -f
+RM = "/Users/renz2048/Library/Application Support/JetBrains/Toolbox/apps/CLion/ch-0/203.5981.166/CLion.app/Contents/bin/cmake/mac/bin/cmake" -E rm -f
 
 # Escaping for special characters.
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/renzheng/CLionProjects/leetcode
+CMAKE_SOURCE_DIR = /Users/renz2048/CLionProjects/leetcode
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/renzheng/CLionProjects/leetcode/cmake-build-debug
+CMAKE_BINARY_DIR = /Users/renz2048/CLionProjects/leetcode/cmake-build-debug
 
 # Include any dependencies generated for this target.
 include 3-lengthOfLongestSubstring/CMakeFiles/3_lengthOfLongestSubstring.dir/depend.make
@@ -79,16 +79,16 @@ include 3-lengthOfLongestSubstring/CMakeFiles/3_lengthOfLongestSubstring.dir/fla
 
 3-lengthOfLongestSubstring/CMakeFiles/3_lengthOfLongestSubstring.dir/3-lengthOfLongestSubstring.c.o: 3-lengthOfLongestSubstring/CMakeFiles/3_lengthOfLongestSubstring.dir/flags.make
 3-lengthOfLongestSubstring/CMakeFiles/3_lengthOfLongestSubstring.dir/3-lengthOfLongestSubstring.c.o: ../3-lengthOfLongestSubstring/3-lengthOfLongestSubstring.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/renzheng/CLionProjects/leetcode/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object 3-lengthOfLongestSubstring/CMakeFiles/3_lengthOfLongestSubstring.dir/3-lengthOfLongestSubstring.c.o"
-	cd /home/renzheng/CLionProjects/leetcode/cmake-build-debug/3-lengthOfLongestSubstring && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/3_lengthOfLongestSubstring.dir/3-lengthOfLongestSubstring.c.o   -c /home/renzheng/CLionProjects/leetcode/3-lengthOfLongestSubstring/3-lengthOfLongestSubstring.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/renz2048/CLionProjects/leetcode/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object 3-lengthOfLongestSubstring/CMakeFiles/3_lengthOfLongestSubstring.dir/3-lengthOfLongestSubstring.c.o"
+	cd /Users/renz2048/CLionProjects/leetcode/cmake-build-debug/3-lengthOfLongestSubstring && /Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/3_lengthOfLongestSubstring.dir/3-lengthOfLongestSubstring.c.o   -c /Users/renz2048/CLionProjects/leetcode/3-lengthOfLongestSubstring/3-lengthOfLongestSubstring.c
 
 3-lengthOfLongestSubstring/CMakeFiles/3_lengthOfLongestSubstring.dir/3-lengthOfLongestSubstring.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/3_lengthOfLongestSubstring.dir/3-lengthOfLongestSubstring.c.i"
-	cd /home/renzheng/CLionProjects/leetcode/cmake-build-debug/3-lengthOfLongestSubstring && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/renzheng/CLionProjects/leetcode/3-lengthOfLongestSubstring/3-lengthOfLongestSubstring.c > CMakeFiles/3_lengthOfLongestSubstring.dir/3-lengthOfLongestSubstring.c.i
+	cd /Users/renz2048/CLionProjects/leetcode/cmake-build-debug/3-lengthOfLongestSubstring && /Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/renz2048/CLionProjects/leetcode/3-lengthOfLongestSubstring/3-lengthOfLongestSubstring.c > CMakeFiles/3_lengthOfLongestSubstring.dir/3-lengthOfLongestSubstring.c.i
 
 3-lengthOfLongestSubstring/CMakeFiles/3_lengthOfLongestSubstring.dir/3-lengthOfLongestSubstring.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/3_lengthOfLongestSubstring.dir/3-lengthOfLongestSubstring.c.s"
-	cd /home/renzheng/CLionProjects/leetcode/cmake-build-debug/3-lengthOfLongestSubstring && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/renzheng/CLionProjects/leetcode/3-lengthOfLongestSubstring/3-lengthOfLongestSubstring.c -o CMakeFiles/3_lengthOfLongestSubstring.dir/3-lengthOfLongestSubstring.c.s
+	cd /Users/renz2048/CLionProjects/leetcode/cmake-build-debug/3-lengthOfLongestSubstring && /Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/renz2048/CLionProjects/leetcode/3-lengthOfLongestSubstring/3-lengthOfLongestSubstring.c -o CMakeFiles/3_lengthOfLongestSubstring.dir/3-lengthOfLongestSubstring.c.s
 
 # Object files for target 3_lengthOfLongestSubstring
 3_lengthOfLongestSubstring_OBJECTS = \
@@ -100,8 +100,8 @@ include 3-lengthOfLongestSubstring/CMakeFiles/3_lengthOfLongestSubstring.dir/fla
 3-lengthOfLongestSubstring/3_lengthOfLongestSubstring: 3-lengthOfLongestSubstring/CMakeFiles/3_lengthOfLongestSubstring.dir/3-lengthOfLongestSubstring.c.o
 3-lengthOfLongestSubstring/3_lengthOfLongestSubstring: 3-lengthOfLongestSubstring/CMakeFiles/3_lengthOfLongestSubstring.dir/build.make
 3-lengthOfLongestSubstring/3_lengthOfLongestSubstring: 3-lengthOfLongestSubstring/CMakeFiles/3_lengthOfLongestSubstring.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/renzheng/CLionProjects/leetcode/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking C executable 3_lengthOfLongestSubstring"
-	cd /home/renzheng/CLionProjects/leetcode/cmake-build-debug/3-lengthOfLongestSubstring && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/3_lengthOfLongestSubstring.dir/link.txt --verbose=$(VERBOSE)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/renz2048/CLionProjects/leetcode/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking C executable 3_lengthOfLongestSubstring"
+	cd /Users/renz2048/CLionProjects/leetcode/cmake-build-debug/3-lengthOfLongestSubstring && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/3_lengthOfLongestSubstring.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
 3-lengthOfLongestSubstring/CMakeFiles/3_lengthOfLongestSubstring.dir/build: 3-lengthOfLongestSubstring/3_lengthOfLongestSubstring
@@ -109,10 +109,10 @@ include 3-lengthOfLongestSubstring/CMakeFiles/3_lengthOfLongestSubstring.dir/fla
 .PHONY : 3-lengthOfLongestSubstring/CMakeFiles/3_lengthOfLongestSubstring.dir/build
 
 3-lengthOfLongestSubstring/CMakeFiles/3_lengthOfLongestSubstring.dir/clean:
-	cd /home/renzheng/CLionProjects/leetcode/cmake-build-debug/3-lengthOfLongestSubstring && $(CMAKE_COMMAND) -P CMakeFiles/3_lengthOfLongestSubstring.dir/cmake_clean.cmake
+	cd /Users/renz2048/CLionProjects/leetcode/cmake-build-debug/3-lengthOfLongestSubstring && $(CMAKE_COMMAND) -P CMakeFiles/3_lengthOfLongestSubstring.dir/cmake_clean.cmake
 .PHONY : 3-lengthOfLongestSubstring/CMakeFiles/3_lengthOfLongestSubstring.dir/clean
 
 3-lengthOfLongestSubstring/CMakeFiles/3_lengthOfLongestSubstring.dir/depend:
-	cd /home/renzheng/CLionProjects/leetcode/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/renzheng/CLionProjects/leetcode /home/renzheng/CLionProjects/leetcode/3-lengthOfLongestSubstring /home/renzheng/CLionProjects/leetcode/cmake-build-debug /home/renzheng/CLionProjects/leetcode/cmake-build-debug/3-lengthOfLongestSubstring /home/renzheng/CLionProjects/leetcode/cmake-build-debug/3-lengthOfLongestSubstring/CMakeFiles/3_lengthOfLongestSubstring.dir/DependInfo.cmake --color=$(COLOR)
+	cd /Users/renz2048/CLionProjects/leetcode/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/renz2048/CLionProjects/leetcode /Users/renz2048/CLionProjects/leetcode/3-lengthOfLongestSubstring /Users/renz2048/CLionProjects/leetcode/cmake-build-debug /Users/renz2048/CLionProjects/leetcode/cmake-build-debug/3-lengthOfLongestSubstring /Users/renz2048/CLionProjects/leetcode/cmake-build-debug/3-lengthOfLongestSubstring/CMakeFiles/3_lengthOfLongestSubstring.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : 3-lengthOfLongestSubstring/CMakeFiles/3_lengthOfLongestSubstring.dir/depend
 

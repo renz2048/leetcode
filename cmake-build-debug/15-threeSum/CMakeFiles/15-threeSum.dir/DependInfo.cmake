@@ -4,7 +4,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_C
-  "/Users/renz2048/CLionProjects/leetcode/3-lengthOfLongestSubstring/3-lengthOfLongestSubstring.c" "/Users/renz2048/CLionProjects/leetcode/cmake-build-debug/3-lengthOfLongestSubstring/CMakeFiles/3_lengthOfLongestSubstring.dir/3-lengthOfLongestSubstring.c.o"
+  "/Users/renz2048/CLionProjects/leetcode/15-threeSum/15-threeSum.c" "/Users/renz2048/CLionProjects/leetcode/cmake-build-debug/15-threeSum/CMakeFiles/15-threeSum.dir/15-threeSum.c.o"
   )
 set(CMAKE_C_COMPILER_ID "AppleClang")
 

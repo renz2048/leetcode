@@ -4,9 +4,9 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_C
-  "/home/renzheng/CLionProjects/leetcode/5-longestPalindrome/5-longestPalindrome.c" "/home/renzheng/CLionProjects/leetcode/cmake-build-debug/5-longestPalindrome/CMakeFiles/5_longestPalindrome.dir/5-longestPalindrome.c.o"
+  "/Users/renz2048/CLionProjects/leetcode/5-longestPalindrome/5-longestPalindrome.c" "/Users/renz2048/CLionProjects/leetcode/cmake-build-debug/5-longestPalindrome/CMakeFiles/5_longestPalindrome.dir/5-longestPalindrome.c.o"
   )
-set(CMAKE_C_COMPILER_ID "GNU")
+set(CMAKE_C_COMPILER_ID "AppleClang")
 
 # The include file search paths:
 set(CMAKE_C_TARGET_INCLUDE_PATH

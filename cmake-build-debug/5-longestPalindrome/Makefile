@@ -59,19 +59,19 @@ cmake_force:
 SHELL = /bin/sh
 
 # The CMake executable.
-CMAKE_COMMAND = /home/renzheng/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/203.5981.166/bin/cmake/linux/bin/cmake
+CMAKE_COMMAND = "/Users/renz2048/Library/Application Support/JetBrains/Toolbox/apps/CLion/ch-0/203.5981.166/CLion.app/Contents/bin/cmake/mac/bin/cmake"
 
 # The command to remove a file.
-RM = /home/renzheng/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/203.5981.166/bin/cmake/linux/bin/cmake -E rm -f
+RM = "/Users/renz2048/Library/Application Support/JetBrains/Toolbox/apps/CLion/ch-0/203.5981.166/CLion.app/Contents/bin/cmake/mac/bin/cmake" -E rm -f
 
 # Escaping for special characters.
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/renzheng/CLionProjects/leetcode
+CMAKE_SOURCE_DIR = /Users/renz2048/CLionProjects/leetcode
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/renzheng/CLionProjects/leetcode/cmake-build-debug
+CMAKE_BINARY_DIR = /Users/renz2048/CLionProjects/leetcode/cmake-build-debug
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -79,7 +79,7 @@ CMAKE_BINARY_DIR = /home/renzheng/CLionProjects/leetcode/cmake-build-debug
 # Special rule for the target rebuild_cache
 rebuild_cache:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running CMake to regenerate build system..."
-	/home/renzheng/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/203.5981.166/bin/cmake/linux/bin/cmake --regenerate-during-build -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
+	"/Users/renz2048/Library/Application Support/JetBrains/Toolbox/apps/CLion/ch-0/203.5981.166/CLion.app/Contents/bin/cmake/mac/bin/cmake" --regenerate-during-build -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
 .PHONY : rebuild_cache
 
 # Special rule for the target rebuild_cache
@@ -90,7 +90,7 @@ rebuild_cache/fast: rebuild_cache
 # Special rule for the target edit_cache
 edit_cache:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "No interactive CMake dialog available..."
-	/home/renzheng/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/203.5981.166/bin/cmake/linux/bin/cmake -E echo No\ interactive\ CMake\ dialog\ available.
+	"/Users/renz2048/Library/Application Support/JetBrains/Toolbox/apps/CLion/ch-0/203.5981.166/CLion.app/Contents/bin/cmake/mac/bin/cmake" -E echo No\ interactive\ CMake\ dialog\ available.
 .PHONY : edit_cache
 
 # Special rule for the target edit_cache
@@ -100,14 +100,14 @@ edit_cache/fast: edit_cache
 
 # The main all target
 all: cmake_check_build_system
-	cd /home/renzheng/CLionProjects/leetcode/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_progress_start /home/renzheng/CLionProjects/leetcode/cmake-build-debug/CMakeFiles /home/renzheng/CLionProjects/leetcode/cmake-build-debug/5-longestPalindrome/CMakeFiles/progress.marks
-	cd /home/renzheng/CLionProjects/leetcode/cmake-build-debug && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 5-longestPalindrome/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/renzheng/CLionProjects/leetcode/cmake-build-debug/CMakeFiles 0
+	cd /Users/renz2048/CLionProjects/leetcode/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_progress_start /Users/renz2048/CLionProjects/leetcode/cmake-build-debug/CMakeFiles /Users/renz2048/CLionProjects/leetcode/cmake-build-debug/5-longestPalindrome/CMakeFiles/progress.marks
+	cd /Users/renz2048/CLionProjects/leetcode/cmake-build-debug && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 5-longestPalindrome/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/renz2048/CLionProjects/leetcode/cmake-build-debug/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /home/renzheng/CLionProjects/leetcode/cmake-build-debug && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 5-longestPalindrome/clean
+	cd /Users/renz2048/CLionProjects/leetcode/cmake-build-debug && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 5-longestPalindrome/clean
 .PHONY : clean
 
 # The main clean target
@@ -117,22 +117,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /home/renzheng/CLionProjects/leetcode/cmake-build-debug && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 5-longestPalindrome/preinstall
+	cd /Users/renz2048/CLionProjects/leetcode/cmake-build-debug && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 5-longestPalindrome/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /home/renzheng/CLionProjects/leetcode/cmake-build-debug && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 5-longestPalindrome/preinstall
+	cd /Users/renz2048/CLionProjects/leetcode/cmake-build-debug && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 5-longestPalindrome/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /home/renzheng/CLionProjects/leetcode/cmake-build-debug && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /Users/renz2048/CLionProjects/leetcode/cmake-build-debug && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 5-longestPalindrome/CMakeFiles/5_longestPalindrome.dir/rule:
-	cd /home/renzheng/CLionProjects/leetcode/cmake-build-debug && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 5-longestPalindrome/CMakeFiles/5_longestPalindrome.dir/rule
+	cd /Users/renz2048/CLionProjects/leetcode/cmake-build-debug && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 5-longestPalindrome/CMakeFiles/5_longestPalindrome.dir/rule
 .PHONY : 5-longestPalindrome/CMakeFiles/5_longestPalindrome.dir/rule
 
 # Convenience name for target.
@@ -142,7 +142,7 @@ depend:
 
 # fast build rule for target.
 5_longestPalindrome/fast:
-	cd /home/renzheng/CLionProjects/leetcode/cmake-build-debug && $(MAKE) $(MAKESILENT) -f 5-longestPalindrome/CMakeFiles/5_longestPalindrome.dir/build.make 5-longestPalindrome/CMakeFiles/5_longestPalindrome.dir/build
+	cd /Users/renz2048/CLionProjects/leetcode/cmake-build-debug && $(MAKE) $(MAKESILENT) -f 5-longestPalindrome/CMakeFiles/5_longestPalindrome.dir/build.make 5-longestPalindrome/CMakeFiles/5_longestPalindrome.dir/build
 .PHONY : 5_longestPalindrome/fast
 
 5-longestPalindrome.o: 5-longestPalindrome.c.o
@@ -151,7 +151,7 @@ depend:
 
 # target to build an object file
 5-longestPalindrome.c.o:
-	cd /home/renzheng/CLionProjects/leetcode/cmake-build-debug && $(MAKE) $(MAKESILENT) -f 5-longestPalindrome/CMakeFiles/5_longestPalindrome.dir/build.make 5-longestPalindrome/CMakeFiles/5_longestPalindrome.dir/5-longestPalindrome.c.o
+	cd /Users/renz2048/CLionProjects/leetcode/cmake-build-debug && $(MAKE) $(MAKESILENT) -f 5-longestPalindrome/CMakeFiles/5_longestPalindrome.dir/build.make 5-longestPalindrome/CMakeFiles/5_longestPalindrome.dir/5-longestPalindrome.c.o
 .PHONY : 5-longestPalindrome.c.o
 
 5-longestPalindrome.i: 5-longestPalindrome.c.i
@@ -160,7 +160,7 @@ depend:
 
 # target to preprocess a source file
 5-longestPalindrome.c.i:
-	cd /home/renzheng/CLionProjects/leetcode/cmake-build-debug && $(MAKE) $(MAKESILENT) -f 5-longestPalindrome/CMakeFiles/5_longestPalindrome.dir/build.make 5-longestPalindrome/CMakeFiles/5_longestPalindrome.dir/5-longestPalindrome.c.i
+	cd /Users/renz2048/CLionProjects/leetcode/cmake-build-debug && $(MAKE) $(MAKESILENT) -f 5-longestPalindrome/CMakeFiles/5_longestPalindrome.dir/build.make 5-longestPalindrome/CMakeFiles/5_longestPalindrome.dir/5-longestPalindrome.c.i
 .PHONY : 5-longestPalindrome.c.i
 
 5-longestPalindrome.s: 5-longestPalindrome.c.s
@@ -169,7 +169,7 @@ depend:
 
 # target to generate assembly for a file
 5-longestPalindrome.c.s:
-	cd /home/renzheng/CLionProjects/leetcode/cmake-build-debug && $(MAKE) $(MAKESILENT) -f 5-longestPalindrome/CMakeFiles/5_longestPalindrome.dir/build.make 5-longestPalindrome/CMakeFiles/5_longestPalindrome.dir/5-longestPalindrome.c.s
+	cd /Users/renz2048/CLionProjects/leetcode/cmake-build-debug && $(MAKE) $(MAKESILENT) -f 5-longestPalindrome/CMakeFiles/5_longestPalindrome.dir/build.make 5-longestPalindrome/CMakeFiles/5_longestPalindrome.dir/5-longestPalindrome.c.s
 .PHONY : 5-longestPalindrome.c.s
 
 # Help Target
@@ -195,6 +195,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /home/renzheng/CLionProjects/leetcode/cmake-build-debug && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /Users/renz2048/CLionProjects/leetcode/cmake-build-debug && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

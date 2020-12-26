@@ -6,10 +6,8 @@
 
 #IncludeRegexTransform: 
 
-/home/renzheng/CLionProjects/leetcode/5-longestPalindrome/5-longestPalindrome.c
+/Users/renz2048/CLionProjects/leetcode/15-threeSum/15-threeSum.c
 stdio.h
--
-string.h
 -
 stdlib.h
 -

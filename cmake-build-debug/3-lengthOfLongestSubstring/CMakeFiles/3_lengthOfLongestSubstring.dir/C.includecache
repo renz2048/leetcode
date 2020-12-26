@@ -6,7 +6,7 @@
 
 #IncludeRegexTransform: 
 
-/home/renzheng/CLionProjects/leetcode/3-lengthOfLongestSubstring/3-lengthOfLongestSubstring.c
+/Users/renz2048/CLionProjects/leetcode/3-lengthOfLongestSubstring/3-lengthOfLongestSubstring.c
 stdio.h
 -
 string.h

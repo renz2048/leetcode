@@ -100,14 +100,14 @@ edit_cache/fast: edit_cache
 
 # The main all target
 all: cmake_check_build_system
-	cd /Users/renz2048/CLionProjects/leetcode/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_progress_start /Users/renz2048/CLionProjects/leetcode/cmake-build-debug/CMakeFiles /Users/renz2048/CLionProjects/leetcode/cmake-build-debug/3-lengthOfLongestSubstring/CMakeFiles/progress.marks
-	cd /Users/renz2048/CLionProjects/leetcode/cmake-build-debug && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 3-lengthOfLongestSubstring/all
+	cd /Users/renz2048/CLionProjects/leetcode/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_progress_start /Users/renz2048/CLionProjects/leetcode/cmake-build-debug/CMakeFiles /Users/renz2048/CLionProjects/leetcode/cmake-build-debug/15-threeSum/CMakeFiles/progress.marks
+	cd /Users/renz2048/CLionProjects/leetcode/cmake-build-debug && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 15-threeSum/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /Users/renz2048/CLionProjects/leetcode/cmake-build-debug/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /Users/renz2048/CLionProjects/leetcode/cmake-build-debug && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 3-lengthOfLongestSubstring/clean
+	cd /Users/renz2048/CLionProjects/leetcode/cmake-build-debug && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 15-threeSum/clean
 .PHONY : clean
 
 # The main clean target
@@ -117,12 +117,12 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /Users/renz2048/CLionProjects/leetcode/cmake-build-debug && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 3-lengthOfLongestSubstring/preinstall
+	cd /Users/renz2048/CLionProjects/leetcode/cmake-build-debug && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 15-threeSum/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /Users/renz2048/CLionProjects/leetcode/cmake-build-debug && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 3-lengthOfLongestSubstring/preinstall
+	cd /Users/renz2048/CLionProjects/leetcode/cmake-build-debug && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 15-threeSum/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
@@ -131,46 +131,46 @@ depend:
 .PHONY : depend
 
 # Convenience name for target.
-3-lengthOfLongestSubstring/CMakeFiles/3_lengthOfLongestSubstring.dir/rule:
-	cd /Users/renz2048/CLionProjects/leetcode/cmake-build-debug && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 3-lengthOfLongestSubstring/CMakeFiles/3_lengthOfLongestSubstring.dir/rule
-.PHONY : 3-lengthOfLongestSubstring/CMakeFiles/3_lengthOfLongestSubstring.dir/rule
+15-threeSum/CMakeFiles/15-threeSum.dir/rule:
+	cd /Users/renz2048/CLionProjects/leetcode/cmake-build-debug && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 15-threeSum/CMakeFiles/15-threeSum.dir/rule
+.PHONY : 15-threeSum/CMakeFiles/15-threeSum.dir/rule
 
 # Convenience name for target.
-3_lengthOfLongestSubstring: 3-lengthOfLongestSubstring/CMakeFiles/3_lengthOfLongestSubstring.dir/rule
+15-threeSum: 15-threeSum/CMakeFiles/15-threeSum.dir/rule
 
-.PHONY : 3_lengthOfLongestSubstring
+.PHONY : 15-threeSum
 
 # fast build rule for target.
-3_lengthOfLongestSubstring/fast:
-	cd /Users/renz2048/CLionProjects/leetcode/cmake-build-debug && $(MAKE) $(MAKESILENT) -f 3-lengthOfLongestSubstring/CMakeFiles/3_lengthOfLongestSubstring.dir/build.make 3-lengthOfLongestSubstring/CMakeFiles/3_lengthOfLongestSubstring.dir/build
-.PHONY : 3_lengthOfLongestSubstring/fast
+15-threeSum/fast:
+	cd /Users/renz2048/CLionProjects/leetcode/cmake-build-debug && $(MAKE) $(MAKESILENT) -f 15-threeSum/CMakeFiles/15-threeSum.dir/build.make 15-threeSum/CMakeFiles/15-threeSum.dir/build
+.PHONY : 15-threeSum/fast
 
-3-lengthOfLongestSubstring.o: 3-lengthOfLongestSubstring.c.o
+15-threeSum.o: 15-threeSum.c.o
 
-.PHONY : 3-lengthOfLongestSubstring.o
+.PHONY : 15-threeSum.o
 
 # target to build an object file
-3-lengthOfLongestSubstring.c.o:
-	cd /Users/renz2048/CLionProjects/leetcode/cmake-build-debug && $(MAKE) $(MAKESILENT) -f 3-lengthOfLongestSubstring/CMakeFiles/3_lengthOfLongestSubstring.dir/build.make 3-lengthOfLongestSubstring/CMakeFiles/3_lengthOfLongestSubstring.dir/3-lengthOfLongestSubstring.c.o
-.PHONY : 3-lengthOfLongestSubstring.c.o
+15-threeSum.c.o:
+	cd /Users/renz2048/CLionProjects/leetcode/cmake-build-debug && $(MAKE) $(MAKESILENT) -f 15-threeSum/CMakeFiles/15-threeSum.dir/build.make 15-threeSum/CMakeFiles/15-threeSum.dir/15-threeSum.c.o
+.PHONY : 15-threeSum.c.o
 
-3-lengthOfLongestSubstring.i: 3-lengthOfLongestSubstring.c.i
+15-threeSum.i: 15-threeSum.c.i
 
-.PHONY : 3-lengthOfLongestSubstring.i
+.PHONY : 15-threeSum.i
 
 # target to preprocess a source file
-3-lengthOfLongestSubstring.c.i:
-	cd /Users/renz2048/CLionProjects/leetcode/cmake-build-debug && $(MAKE) $(MAKESILENT) -f 3-lengthOfLongestSubstring/CMakeFiles/3_lengthOfLongestSubstring.dir/build.make 3-lengthOfLongestSubstring/CMakeFiles/3_lengthOfLongestSubstring.dir/3-lengthOfLongestSubstring.c.i
-.PHONY : 3-lengthOfLongestSubstring.c.i
+15-threeSum.c.i:
+	cd /Users/renz2048/CLionProjects/leetcode/cmake-build-debug && $(MAKE) $(MAKESILENT) -f 15-threeSum/CMakeFiles/15-threeSum.dir/build.make 15-threeSum/CMakeFiles/15-threeSum.dir/15-threeSum.c.i
+.PHONY : 15-threeSum.c.i
 
-3-lengthOfLongestSubstring.s: 3-lengthOfLongestSubstring.c.s
+15-threeSum.s: 15-threeSum.c.s
 
-.PHONY : 3-lengthOfLongestSubstring.s
+.PHONY : 15-threeSum.s
 
 # target to generate assembly for a file
-3-lengthOfLongestSubstring.c.s:
-	cd /Users/renz2048/CLionProjects/leetcode/cmake-build-debug && $(MAKE) $(MAKESILENT) -f 3-lengthOfLongestSubstring/CMakeFiles/3_lengthOfLongestSubstring.dir/build.make 3-lengthOfLongestSubstring/CMakeFiles/3_lengthOfLongestSubstring.dir/3-lengthOfLongestSubstring.c.s
-.PHONY : 3-lengthOfLongestSubstring.c.s
+15-threeSum.c.s:
+	cd /Users/renz2048/CLionProjects/leetcode/cmake-build-debug && $(MAKE) $(MAKESILENT) -f 15-threeSum/CMakeFiles/15-threeSum.dir/build.make 15-threeSum/CMakeFiles/15-threeSum.dir/15-threeSum.c.s
+.PHONY : 15-threeSum.c.s
 
 # Help Target
 help:
@@ -180,10 +180,10 @@ help:
 	@echo "... depend"
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
-	@echo "... 3_lengthOfLongestSubstring"
-	@echo "... 3-lengthOfLongestSubstring.o"
-	@echo "... 3-lengthOfLongestSubstring.i"
-	@echo "... 3-lengthOfLongestSubstring.s"
+	@echo "... 15-threeSum"
+	@echo "... 15-threeSum.o"
+	@echo "... 15-threeSum.i"
+	@echo "... 15-threeSum.s"
 .PHONY : help
 
 

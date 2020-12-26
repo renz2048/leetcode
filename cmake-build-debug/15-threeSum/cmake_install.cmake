@@ -1,4 +1,4 @@
-# Install script for directory: /Users/renz2048/CLionProjects/leetcode/3-lengthOfLongestSubstring
+# Install script for directory: /Users/renz2048/CLionProjects/leetcode/15-threeSum
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
